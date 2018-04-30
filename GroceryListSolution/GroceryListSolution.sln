@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryListSystem", "GroceryListSystem\GroceryListSystem.csproj", "{020FAFA7-A720-4426-B907-7E3885948D77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19CBE8B5-113D-4721-B007-4E01E22EF235} = {19CBE8B5-113D-4721-B007-4E01E22EF235}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryList.Data", "GroceryList.Data\GroceryList.Data.csproj", "{19CBE8B5-113D-4721-B007-4E01E22EF235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroceryListWebsite", "GroceryListWebsite\GroceryListWebsite.csproj", "{9CE0798C-572B-4F2D-A303-C368CBF06554}"
+	ProjectSection(ProjectDependencies) = postProject
+		{020FAFA7-A720-4426-B907-7E3885948D77} = {020FAFA7-A720-4426-B907-7E3885948D77}
+		{19CBE8B5-113D-4721-B007-4E01E22EF235} = {19CBE8B5-113D-4721-B007-4E01E22EF235}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020FAFA7-A720-4426-B907-7E3885948D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020FAFA7-A720-4426-B907-7E3885948D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020FAFA7-A720-4426-B907-7E3885948D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020FAFA7-A720-4426-B907-7E3885948D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CBE8B5-113D-4721-B007-4E01E22EF235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CBE8B5-113D-4721-B007-4E01E22EF235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CBE8B5-113D-4721-B007-4E01E22EF235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CBE8B5-113D-4721-B007-4E01E22EF235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE0798C-572B-4F2D-A303-C368CBF06554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE0798C-572B-4F2D-A303-C368CBF06554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE0798C-572B-4F2D-A303-C368CBF06554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE0798C-572B-4F2D-A303-C368CBF06554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
